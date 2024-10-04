@@ -1,5 +1,6 @@
-import { route } from "@/route";
 import { Type } from "@sinclair/typebox";
+
+import { route } from "@/route";
 
 export default route({
   method: "GET",

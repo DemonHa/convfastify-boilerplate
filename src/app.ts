@@ -1,7 +1,8 @@
-import Fastify from "fastify";
 import fastifyCors from "@fastify/cors";
-import config from "@/config";
 import convfastify from "convfastify";
+import Fastify from "fastify";
+
+import config from "@/config";
 
 export const getApp = () => {
   const fastify = Fastify({

@@ -1,6 +1,7 @@
-import { route } from "@/route";
-import { name, version } from "@/../package.json";
 import { Type } from "@sinclair/typebox";
+
+import { name, version } from "@/../package.json";
+import { route } from "@/route";
 
 export default route({
   method: "GET",
