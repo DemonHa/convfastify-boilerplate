@@ -17,7 +17,7 @@ export const getApp = () => {
 
   fastify.register(
     convfastify()
-      .loadFrom(`${__dirname}/routes/**/*.{js,ts}`)
+      .loadFrom(`${__dirname}/routes/**/{get,post,put,patch,delete}.{js,ts}`)
       .serveSwagger()
       .register()
   );
